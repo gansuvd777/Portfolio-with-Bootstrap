@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Responsive Home Page</title>
+    <link rel="shortcut icon" href="./assets/images/coder.jpg">
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="./assets/css/reset.css">
+    <!-- <link href="https://fonts.googleapis.com/css?family=Noto+Serif" rel="stylesheet"> -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    
+</head>
+<body>
+	<!-- Start Navigation -->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light fixed-top" style="background-color: #B3BEC9">
+        <div class="container">
+            <a class="navbar-brand" style="color: #1F3243" href="index.html">Pearl Oyunbaatar</a>
+  
+            <!-- start button -->
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+  
+            <!-- Start links -->
+  
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="d-flex justify-content-end">
+                <!-- About Page -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">About</a>
+                    </li>
+                <!-- Portfolio -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="portfolio.html">Portfolio</a>
+                    </li>
+                <!-- Contact -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Nav Ends Here-->
+    <div class="container" id="content">
+        <div class="row">
+          <div class="col-sm-8 col-lg-8 col-md-8 border" id="maincontent">
+            <div class="page-header">
+              <h1>About Me</h1>
+            </div>
+            <div class="row">
+              <div class="col-md-3 col-sm-3 col-lg-3">
+                <img src="./assets/images/profile.jpg" alt="My photo" class="img-thumbnail" onclick=diffImage(this)>
+              </div>
+              <div class="col-md-9 col-sm-9 col-lg-9">
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque dignissim, felis ut dictum tristique,
+                  nibh erat feugiat libero, sit amet fringilla mauris velit in mi. Duis tempus felis vitae
+                  felis vulputate pretium. Nullam commodo, est ac auctor ornare, eros nisi fringilla sem,
+                  non pulvinar tortor lorem sit amet sem. Aenean quis erat facilisis, porttitor ex cursus,
+                  luctus enim. Curabitur et metus in lacus tristique sagittis et in lorem. Nunc id nisi et
+                  neque fringilla ultricies. Aenean at feugiat elit, a posuere justo. Pellentesque egestas
+                  dolor et nisi venenatis, nec fermentum urna fringilla. Etiam efficitur porta purus, id
+                  posuere sem congue a. End iluu yum bicheed zuragnii dooguur oruulj wrap hiih heregtei baina.
+                </p>
+              </div>
+            </div>
+          </div>
+          <!--Create Card taking up 4 Columns-->
+          <div class="col-md-3">
+            <div class="card mt-2" id="card">
+              <div class="card-body">
+                <h3 class="card-title">Connect with Me</h3>
+                <hr>
+                    <div class="card-text">
+                        <a href="https://www.linkedin.com/in/pearl-oyunbaatar-33562666/" target="_blank"><img src="./assets/images/icon/if_linkedin_1220314.png" alt="LinkedIn"></a>
+                        <a href="https://stackoverflow.com/users/9881365/pearl-oyun" target="_blank"><img src="./assets/images/icon/if_stackoverflow_1220302.png" alt="Stack over Flow"></a>
+                        <a href="https://github.com/gansuvd777" target="_blank"><img src="./assets/images/icon/if_github_1220319.png" alt="GitHub"></a>
+                    </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+<br>
+      <div class="card" id="blockquote">
+        <div class="card-header" style="background-color: #8E9DAF">Favorite Quotes</div>
+        <button class="btn btn-primary form-control" id="factButton">Click here fo more quotes</button>
+        <div class="card-body">
+            <blockquote class="blockquote mb-0">
+            <p id="factText">' You can't be What you can't see '</p>
+            <footer class="blockquote-footer">Quote by <cite title="Marian Wright Edelman">Marian Wright Edelman</cite></footer>
+            </blockquote>
+        </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <footer id="main-footer">
+        <p>Copyright &copy; created by Pearl 2018</p>
+    </footer>
+    
+    <script rel="text/javascript" src="javascript.js"></script>
+
+    <!-- jQuery CDN -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+
+    <!-- Bootstrap JavaScript CDN -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+          
+</body>
+</html>
