@@ -6,6 +6,10 @@ body{
 	font-weight: bold;
 	font-family: 'Noto Serif', serif;
 }
+.logo:hover{
+    transform: scale(3.1);
+    transition: all 2s;
+}
 
 li.nav-item {
 	font-size: 20px;
